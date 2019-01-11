@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">移动警务通</string>
+	<string name="no_files">该目录为空</string>
+	<string name="to_top">[返回根目录]</string>
+
+
+
+
+	<string name="str_longitude">经度(Longitude)：</string>
+	<string name="str_latitude">纬度(Latitude)：</string>
+	<string name="str_button1">查询</string>
+	<string name="str_button2">+</string>
+	<string name="str_button3">-</string>
+	
+	
+	<string name="str_err_address">地址不存在</string>
+	<string name="str_err_location">无法取得Location</string>
+	<string name="str_my_location">目前所在地址：</string>
+	<string name="str_default_address">北京市天安门</string>
+
+
+	<string-array name="faultRecords">
+		<item>超速</item>
+		<item>闯红灯</item>
+		<item>违规停车</item>
+		<item>无照驾驶</item>
+	</string-array>
+	
+	<string-array name="weifaleixing">
+		<item>占道经营</item>
+		<item>聚众斗殴</item>
+		<item>聚众赌博</item>
+		<item>无证经营</item>
+		<item>妨碍公务</item>
+	</string-array>
+	<string-array name="chufaleixing">
+		<item>罚款</item>
+		<item>行政拘留</item>
+		<item>刑事处罚</item>
+		<item>罚款并拘留</item>
+		<item>说服教育</item>
+	</string-array>
+	<string-array name="juzhuleixing">
+		<item>常住人口</item>
+		<item>暂住人口</item>
+	</string-array>
+	<string-array name="huzhuguanxi">
+		<item>亲属</item>
+		<item>非亲属</item>
+	</string-array>
+</resources>

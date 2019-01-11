@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>打开浏览器进入百度</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>开始搜索</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>对比结果</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>退出浏览器</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>打开浏览器进入百度</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>开始搜索</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>对比结果</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>退出浏览器</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>打开浏览器进入百度</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>开始搜索</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>对比结果</p>]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#FF34B3"><p>退出浏览器</p>]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="72067" started-at="2018-05-17T12:50:56Z" finished-at="2018-05-17T12:52:08Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="72067" started-at="2018-05-17T12:50:56Z" finished-at="2018-05-17T12:52:08Z">
+      <class name="com.tset.casees.Auto_1_Baidu_casees">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="beforeMethod" is-config="true" duration-ms="34475" started-at="2018-05-17T12:50:56Z" finished-at="2018-05-17T12:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.baidu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>打开浏览器进入百度</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="f" duration-ms="7110" started-at="2018-05-17T12:51:31Z" data-provider="data" finished-at="2018-05-17T12:51:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ss_百度搜索]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>开始搜索</p>]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>对比结果</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="afterMethod" is-config="true" duration-ms="785" started-at="2018-05-17T12:51:38Z" finished-at="2018-05-17T12:51:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>退出浏览器</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="beforeMethod" is-config="true" duration-ms="8054" started-at="2018-05-17T12:51:39Z" finished-at="2018-05-17T12:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.baidu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>打开浏览器进入百度</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="f" duration-ms="6238" started-at="2018-05-17T12:51:47Z" data-provider="data" finished-at="2018-05-17T12:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aa_百度搜索]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>开始搜索</p>]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>对比结果</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="afterMethod" is-config="true" duration-ms="767" started-at="2018-05-17T12:51:53Z" finished-at="2018-05-17T12:51:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>退出浏览器</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="beforeMethod" is-config="true" duration-ms="7650" started-at="2018-05-17T12:51:54Z" finished-at="2018-05-17T12:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.baidu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>打开浏览器进入百度</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="f" duration-ms="6278" started-at="2018-05-17T12:52:01Z" data-provider="data" finished-at="2018-05-17T12:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cc_百度搜索]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>开始搜索</p>]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>对比结果</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tset.casees.Auto_1_Baidu_casees@7d9d1a19]" name="afterMethod" is-config="true" duration-ms="698" started-at="2018-05-17T12:52:08Z" finished-at="2018-05-17T12:52:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#FF34B3"><p>退出浏览器</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.tset.casees.Auto_1_Baidu_casees -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>

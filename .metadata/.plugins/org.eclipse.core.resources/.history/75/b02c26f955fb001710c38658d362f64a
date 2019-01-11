@@ -1,0 +1,18 @@
+package edu.xuexi;
+
+public class Account {
+	String name;
+	int money;
+	public  Account() {
+		// TODO Auto-generated method stub
+		System.out.println("创建一个新的用户！");
+
+	}
+	public  Account(String name,int money){
+		this();
+		this.name=name;
+		this.money=money;
+		
+	}
+
+}

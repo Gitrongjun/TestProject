@@ -1,0 +1,16 @@
+package edu.xuexi;
+
+public class addRecord {
+	int money;
+	String name;
+	private void addRecord() {
+		System.out.println("建立账户成功！");
+		
+	}
+public void addRecord(int money, String name){
+	this.money=this.money+money;
+	System.out.println("更改后的金额是："+this.money);
+	this.name= name;
+	System.out.println("命名为："+this.name);
+}
+}

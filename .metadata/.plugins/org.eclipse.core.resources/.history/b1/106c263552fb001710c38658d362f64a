@@ -1,0 +1,9 @@
+package edu.xuexi;
+
+public class addRecord {
+	int money;
+	String name;
+public void add(int money){
+	this.money=this.money+money;
+}
+}

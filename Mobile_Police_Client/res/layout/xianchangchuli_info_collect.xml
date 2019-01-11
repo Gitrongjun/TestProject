@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TableLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:stretchColumns="1">
+		
+	    <TableRow>
+			<TextView android:text="违法类型：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>		
+			<Spinner android:id="@+id/weifaleixing" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:entries="@array/weifaleixing"></Spinner>
+		</TableRow>
+		
+		<TableRow>
+			<TextView android:text="处罚类型：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<Spinner android:id="@+id/chufaleixing" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:entries="@array/chufaleixing"></Spinner>
+		</TableRow>
+
+
+		<TableRow>
+			<TextView android:text="发生地点：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:text="" android:id="@+id/fashengdidian"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+
+
+		<TableRow>
+			<TextView android:text="当事人姓名：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:text="" android:id="@+id/dangshiren"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+		
+		<TableRow>
+			<TextView android:text="当事人身份证号：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:text="" android:id="@+id/dangshirenid"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+		
+		<TableRow>
+			<TextView android:text="详细信息：" android:id="@+id/TextView"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			<EditText android:text="" android:id="@+id/xiangxixinxi"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+		</TableRow>
+
+		<TableRow android:gravity="right">
+			<Button android:text="取消" android:id="@+id/cancelButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+			<Button android:text="提交" android:id="@+id/submitButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

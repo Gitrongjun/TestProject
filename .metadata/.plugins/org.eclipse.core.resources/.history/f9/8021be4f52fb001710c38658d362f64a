@@ -1,0 +1,11 @@
+package edu.xuexi;
+
+public class home {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		addRecord add = new addRecord();
+		add.money(100);
+	}
+
+}

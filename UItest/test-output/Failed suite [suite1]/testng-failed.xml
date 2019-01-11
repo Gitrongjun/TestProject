@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [suite1]]">
+  <test thread-count="5" name="test2(failed)(failed)">
+    <groups>
+      <run>
+        <include name="test1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CTestNG.C_3_lianxi">
+        <methods>
+          <include name="ss1"/>
+        </methods>
+      </class> <!-- CTestNG.C_3_lianxi -->
+    </classes>
+  </test> <!-- test2(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [suite1]] -->

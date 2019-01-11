@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可疑人员姓名：" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/keyixingming"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可疑人员性别：" >
+            </TextView>
+
+            <RadioGroup
+                android:id="@+id/sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="男" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身份证号：" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/keyiid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现地点：" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/faxiandidian"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="居住地址：" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/keyidizhi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </EditText>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可疑行为记录：" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/keyixingwei"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </EditText>
+        </TableRow>
+
+        <TableRow android:gravity="right" >
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消" >
+            </Button>
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="提交" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
