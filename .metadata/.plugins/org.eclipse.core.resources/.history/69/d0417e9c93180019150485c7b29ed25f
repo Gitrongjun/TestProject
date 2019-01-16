@@ -1,0 +1,19 @@
+package java;
+
+public class DataList {
+	private String producNo;
+	private String areaName;
+	private String cityName;
+	private String rebateType;
+	private String rebateAmt;
+	private String firstRebateAt;
+	private String totalPeriodCount;
+	private String activityNo;
+	private String outTradeType;
+	private String marchantNo;
+	private String institutionNo;
+	private String promptCode;
+	private String packageAMt;
+	private String protocolBeginAt;
+	private String protocolEndAt;
+}

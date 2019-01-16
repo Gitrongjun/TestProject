@@ -2,22 +2,23 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="locatorInfo" key="selection"/>
+		<item value=" " key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="       "/>
+			<item value=" public static boolean exportCsv(File file, List&lt;String&gt; dataList){&#x0A;        boolean isSucess=false;&#x0A;        &#x0A;        FileOutputStream out=null;&#x0A;        OutputStreamWriter osw=null;&#x0A;        BufferedWriter bw=null;&#x0A;        try {&#x0A;            out = new FileOutputStream(file);&#x0A;            osw = new OutputStreamWriter(out);&#x0A;            bw =new BufferedWriter(osw);&#x0A;            if(dataList!=null &amp;&amp; !dataList.isEmpty()){&#x0A;                for(String data : dataList){&#x0A;                    bw.append(data).append(&quot;\r&quot;);&#x0A;                }&#x0A;            }&#x0A;            isSucess=true;&#x0A;        } catch (Exception e) {&#x0A;            isSucess=false;&#x0A;        }finally{&#x0A;            if(bw!=null){&#x0A;                try {&#x0A;                    bw.close();&#x0A;                    bw=null;&#x0A;                } catch (IOException e) {&#x0A;                    e.printStackTrace();&#x0A;                } &#x0A;            }&#x0A;            if(osw!=null){&#x0A;                try {&#x0A;                    osw.close();&#x0A;                    osw=null;&#x0A;                } catch (IOException e) {&#x0A;                    e.printStackTrace();&#x0A;                } &#x0A;            }&#x0A;            if(out!=null){&#x0A;                try {&#x0A;                    out.close();&#x0A;                    out=null;&#x0A;                } catch (IOException e) {&#x0A;                    e.printStackTrace();&#x0A;                } &#x0A;            }&#x0A;        }&#x0A;        &#x0A;        return isSucess;&#x0A;    }"/>
+			<item value="write"/>
 			<item value="locatorinfo"/>
 			<item value="json"/>
 			<item value="TO"/>
 			<item value="scroll"/>
 			<item value="JavascriptExecutor"/>
-			<item value="switchTo().p"/>
-			<item value="swichTo"/>
-			<item value="swichTo()."/>
 		</list>
 		<list key="replacehistory">
+			<item value=" "/>
 			<item value="w"/>
 			<item value="W"/>
 		</list>

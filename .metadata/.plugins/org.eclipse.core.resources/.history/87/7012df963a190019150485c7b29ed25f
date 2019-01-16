@@ -1,0 +1,52 @@
+package OutputCSV;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+
+public class Test {
+
+	public static void main(String[] args) {
+		File file = new File("D:/test/ljq.csv");
+		if (file.isFile() && file.exists()) {
+			boolean delete = file.delete();
+			if (!delete) {
+				System.out.println("删除失败， 请关闭文件后再删除");
+				return;
+			}
+		}
+		// 生成文件
+		
+		String header = "手机号码,AreaName,CityName,RebateType,RebateAmt,FirstRebateAt,TotalPeriodCount,ActivityNo,OutTradeType,MarchantNo,InstitutionNo,PromptCode,PackageAMt,ProtocolBeginAt,ProtocolEndAt";
+		String data1 = "18755641158,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
+		String data2 = "18755641158,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
+		String data3 = "18755641158,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
+		String data4 = "18755641158,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
+		String data5 = "18755641158,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
+
+		try (FileWriter writer = new FileWriter(file); 
+				BufferedWriter bw = new BufferedWriter(writer)) {
+			bw.write(header);
+			bw.newLine();
+			for (int i = 0; i < 100000; i++) {
+				bw.write(data1);
+				bw.newLine();
+				bw.write(data2);
+				bw.newLine();
+				bw.write(data3);
+				bw.newLine();
+				bw.write(data4);
+				bw.newLine();
+				bw.write(data5);
+				bw.newLine();
+				bw.flush();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("执行完毕");
+
+	}
+
+}

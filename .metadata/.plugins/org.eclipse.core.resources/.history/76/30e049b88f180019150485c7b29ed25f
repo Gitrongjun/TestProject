@@ -1,0 +1,18 @@
+package java;
+
+public class OutputData {
+	private String productNo;
+	private String areaName;
+	private String rebateType;
+	private String rebateAmt;
+	private String firstRebateAt;
+	private String totalperiodCount;
+	private String activityNo;
+	private String outTradeType;
+	private String merchantNo;
+	private String institutionNo;
+	private String promptCode;
+	private String packageAmt;
+	private String protocolBeginAt;
+	private String protocolEndAt;
+}
