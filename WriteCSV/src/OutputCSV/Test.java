@@ -12,7 +12,7 @@ import java.util.List;
 public class Test {
 
 	public static void main(String[] args) throws Exception {
-		File file = new File("D:/test/ljq.csv");
+		File file = new File("D:/test/agency_rebate_20190122_310000.csv");
 		
 		if (file.isFile() && file.exists()) {
 			boolean delete = file.delete();
@@ -22,18 +22,18 @@ public class Test {
 			}
 		}
 		
-		String header = "手机1,AreaName,CityName,RebateType,RebateAmt,FirstRebateAt,TotalPeriodCount,ActivityNo,OutTradeType,MarchantNo,InstitutionNo,PromptCode,PackageAMt,ProtocolBeginAt,ProtocolEndAt";
-		String data1 = "1,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
-		String data2 = "1,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
-		String data3 = "1,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
-		String data4 = "1,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
-		String data5 = "1,安徽,安庆,coupon,100,20190110,5,HD10655681,DF0002,1310104040130600,5775,default,100,20190114,20190116";
+		String header = "productNO,AreaName,CityName,RebateType,RebateAmt,FirstRebateAt,TotalPeriodCount,ActivityNo,OutTradeType,MarchantNo,InstitutionNo,PromptCode,PackageAMt,ProtocolBeginAt,ProtocolEndAt";
+		String data1 = "17321481501,上海,上海,COUPON,100,20190110,12,HD10147121,DF0001,01310104040130606,5775,default,100,20190114,20190616";
+		String data2 = "17321481502,上海,上海,CASH,100,20190110,12,HD10655681,DF0002,01310104040130606,5775,default,100,20190114,20190616";
+		String data3 = "17321481503,上海,上海,VOUCHER,100,20190110,12,HD10713754,DF0003,01310104040130606,5775,default,100,20190114,20190616";
+		String data4 = "17321481504,上海,上海,VOUCHER,100,20190110,12,HD10269479,DF0005,01310104040130606,5775,default,100,20190114,20190616";
+		String data5 = "13203054746,湖南,衡阳,VOUCHER,100,20190110,12,HD10856800,DF0006,01310104040130606,5775,default,100,20190114,20190616";
 
 		try (FileWriter writer = new FileWriter(file); 
 				BufferedWriter bw = new BufferedWriter(writer)) {
 			bw.write(header);
 			bw.newLine();
-			for (int i = 1; i <= 100; i++) {
+			for (int i = 1; i <= 200000; i++) {
 				if (i % 100 == 0) {
 					System.out.println(i);
 				}

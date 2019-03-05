@@ -2,32 +2,37 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value=" " key="selection"/>
+		<item value="1310104040130606" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="1310104040130606"/>
+			<item value="201901031"/>
+			<item value="12"/>
+			<item value="20190110"/>
+			<item value=",1,"/>
+			<item value="20191210"/>
 			<item value="       "/>
 			<item value=" public static boolean exportCsv(File file, List&lt;String&gt; dataList){&#x0A;        boolean isSucess=false;&#x0A;        &#x0A;        FileOutputStream out=null;&#x0A;        OutputStreamWriter osw=null;&#x0A;        BufferedWriter bw=null;&#x0A;        try {&#x0A;            out = new FileOutputStream(file);&#x0A;            osw = new OutputStreamWriter(out);&#x0A;            bw =new BufferedWriter(osw);&#x0A;            if(dataList!=null &amp;&amp; !dataList.isEmpty()){&#x0A;                for(String data : dataList){&#x0A;                    bw.append(data).append(&quot;\r&quot;);&#x0A;                }&#x0A;            }&#x0A;            isSucess=true;&#x0A;        } catch (Exception e) {&#x0A;            isSucess=false;&#x0A;        }finally{&#x0A;            if(bw!=null){&#x0A;                try {&#x0A;                    bw.close();&#x0A;                    bw=null;&#x0A;                } catch (IOException e) {&#x0A;                    e.printStackTrace();&#x0A;                } &#x0A;            }&#x0A;            if(osw!=null){&#x0A;                try {&#x0A;                    osw.close();&#x0A;                    osw=null;&#x0A;                } catch (IOException e) {&#x0A;                    e.printStackTrace();&#x0A;                } &#x0A;            }&#x0A;            if(out!=null){&#x0A;                try {&#x0A;                    out.close();&#x0A;                    out=null;&#x0A;                } catch (IOException e) {&#x0A;                    e.printStackTrace();&#x0A;                } &#x0A;            }&#x0A;        }&#x0A;        &#x0A;        return isSucess;&#x0A;    }"/>
-			<item value="write"/>
-			<item value="locatorinfo"/>
-			<item value="json"/>
-			<item value="TO"/>
-			<item value="scroll"/>
-			<item value="JavascriptExecutor"/>
 		</list>
 		<list key="replacehistory">
+			<item value="01310104040130606"/>
+			<item value="20190131"/>
+			<item value="3"/>
+			<item value="201901031"/>
+			<item value=",12,"/>
+			<item value="20190110"/>
 			<item value=" "/>
 			<item value="w"/>
-			<item value="W"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="356" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="454" key="DIALOG_HEIGHT"/>
-		<item value="798" key="DIALOG_X_ORIGIN"/>
-		<item value="413" key="DIALOG_Y_ORIGIN"/>
+		<item value="1152" key="DIALOG_X_ORIGIN"/>
+		<item value="177" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

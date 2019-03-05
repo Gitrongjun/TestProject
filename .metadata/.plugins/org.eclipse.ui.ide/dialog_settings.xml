@@ -5,6 +5,8 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\工作\SSM框架\CAD"/>
+			<item value="D:\工作\GZDTWDXHT"/>
 			<item value="C:\Users\jc\Desktop\自动化框架java\T84.ZenDao"/>
 			<item value=""/>
 		</list>
